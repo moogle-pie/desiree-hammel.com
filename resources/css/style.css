@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+    color: white;
+}
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    font-family: Cardo, sans-serif;  
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Merriweather;
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    float:left;
+
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Merriweather;
+    margin-bottom: 10px;
+    float:right;
+}
+
+h3 {
+    font-size: 35px;
+    color: black;
+    font-family: Cardo;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: Merriweather;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: LATO;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+}
+
+.myimg {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%
+}
+
+.intro {
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 75%;
+    float: left;
+    padding-left: 30px;
+}
+
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+.sidebar {
+    background-color: aliceblue;
+    width: 25%;
+    float: left;
+    border: 1px solid #555555;
+    padding: 10px;
+}
+
+.portfolio-text {
+    margin:0px auto;
+    max-width: 400px;
+}
+
+.c {
+    text-align: center;
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    
+}
+
+a:link {
+    color:black;}
+a:visited{
+    color:black;}
